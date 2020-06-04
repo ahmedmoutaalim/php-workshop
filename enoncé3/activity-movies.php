@@ -3,7 +3,7 @@
 
 <?php 
 
-function showResult(int $d=5 ,int $f=5){
+function showResult( $d=5 , $f=5){
 
 $filmsProduction = [
 
@@ -40,22 +40,25 @@ $filmsProduction = [
     $filmName = array_rand($director,$f);
 
 
+
     foreach($director as $key => $name){
 
         echo "<h3>$name :</h3> ";
         echo "<br>";
          
-        foreach($filmName as $title){
+        foreach($filmName as  $title){
 
             echo  '<li>' .$filmsProduction[$name][$title] .' </li>'; 
         }
        
     
-      
+    
         
         echo "<hr>";
     }
-}showResult(5,5)
+
+
+}showResult(2,2)
 
 ?>
 
