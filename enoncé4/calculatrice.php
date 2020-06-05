@@ -8,14 +8,14 @@
 
 function factorielle($n){
 
-    if($n===0){
+    if($n===0)
         return 1  .' <br>';
-    }
+    
        
-    else{
+    else
 
         return $n*factorielle($n-1) .' <br>'; 
-    }
+    
  
 }
 
@@ -58,7 +58,25 @@ for($i=2 ; $i < $number ; $i++){
 
 //performOperation :
 
-$results = "premier";
+
+// function showResult($r){
+
+//     if($r="facto"){
+
+//       return factorielle(10);
+//     }elseif($r="somme"){
+
+//         return somme(12,12);
+//     }else{
+
+//         return premier(10);
+//     }
+// }echo showResult("somme");
+
+
+
+
+$results ="premier";
 
 switch ($results){
 
@@ -83,10 +101,6 @@ switch ($results){
         
 
 }
-    
-
-
-
 
 
 
