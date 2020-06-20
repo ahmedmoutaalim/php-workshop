@@ -1,0 +1,82 @@
+*{
+
+    margin: 0;
+    padding: 0;
+ 
+}
+
+body{
+
+    background-color: salmon;
+ 
+    font-family: fantasy;
+
+}
+
+h4{
+
+    text-align: center;
+    margin: 30px;
+}
+
+.title{
+margin-top: 50px;
+ text-align: center;
+}
+
+
+ form input:nth-child(1),
+ form input:nth-child(3){
+
+    display: block;
+    width: 500px;
+    padding: 20px;
+    background-color: #252627;
+    border: 3px solid #707070;
+    outline: none;
+    font-size: 1.2rem;
+    color: #fff;
+ 
+
+ }
+
+ input:last-child{
+    width: 50%;
+    background-color:salmon;
+    border: none;
+    cursor: pointer;
+    border: 3px solid #ed5565;
+    border-radius:50px ;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    outline: none;
+    font-size: large;
+    padding: 5px;
+ }
+
+ input:last-child:hover{
+    color: #BEBEBE;
+    background-color: #ed5565;
+ }
+
+
+
+
+form{
+   margin: 0 auto;
+   width:500px ;
+}
+
+.click{
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+
